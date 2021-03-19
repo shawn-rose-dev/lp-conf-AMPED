@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Amped | September 27, 2016 | Arie Crown Theater | Chicago, IL</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- CSS
+  ================================================== -->
+  	
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<!-- <link rel="stylesheet" href="stylesheets/layout-nav.css"> -->
+	<link rel="stylesheet" href="stylesheets/layout.css">
+	<link rel="stylesheet" href="stylesheets/osv-glyphs.css">
+	<link rel="stylesheet" href="stylesheets/FormCSS.css">
+	<link rel="stylesheet" href="assets/styles/fancybox.css" type="text/css" media="screen"/>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+		<!-- Fonts
+	================================================== -->
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+
+		<!-- Scripts
+  	================================================== -->
+	<script src="https://www.onesourcevirtual.com/assets/js/jquery-1.11.2.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+
+		<!-- Maps
+	================================================== -->
+<!-- 	<script src="https://www.onesourcevirtual.com/assets/js/osv-maps.js"></script>
+	<link href="https://www.onesourcevirtual.com/assets/styles/osv-maps.css" rel="stylesheet"> -->
+
+		<!-- Maps
+	================================================== -->
+	 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3OoUFF7xI2_VNviAwY3U2z1xRCJoSksc&callback=initMap"
+    async defer></script>
+    <script src="js/map-amped.js"></script>
+    
+	<!-- typekit -->
+	<script src="//use.typekit.net/clw8pwa.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+	
+	
+
+	<!-- fancybox -->
+	<script type="text/javascript" src="assets/js/fancybox.js"></script>
+	<script type="text/javascript" src="assets/js/fancybox-media.js"></script>
+	<script type="text/javascript">
+	  $(document).ready(function() {
+		$('.fancybox').fancybox();
+		
+		// Set custom style, close if clicked, change title type and overlay color
+		$('.box-media')
+		  .attr('rel', 'media-gallery').fancybox({
+			wrapCSS    : 'fancybox-custom',
+			closeClick : true,
+			openEffect : 'none',
+			arrows : false,
+			helpers : {
+			  media : {},
+			  buttons : {},
+			  title : { type:'inside'},
+			  overlay : {
+				css : {
+				  'background':'rgba(238,238,238,0.85)'
+				}
+			  }			
+			}
+		  });
+		
+	  });
+	</script>
+
+	<!-- parallax -->
+	<script type="text/javascript" src="assets/js/jquery.parallax-1.1.3.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		//.parallax(xPosition, speedFactor, outerHeight) options:
+		//xPosition - Horizontal position of the element
+		//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+		//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+		//events
+
+		$('#arie-crown-sct').parallax("50%", 0.5);
+		//services-listed
+
+		})
+	</script>
+
+</head>
+<body>
+
+
+<!-- TOP-BAR -->
+<nav id="top-bar-sct">
+
+	<div class="container">
+
+		<div class="sixteen columns text-center remove-bottom">
+		    <div class="logo">
+		    	<a href="https://www.onesourcevirtual.com">
+
+		    		<img class="scale-with-grid logo-pad" src="images/logo_osv_sm_white.png" alt="OneSource Virtual" /></a>
+		    		<span class="logo-pad slash">/</span>
+		    		<img class="scale-with-grid" src="images/1607-wd-rising-zztop-logo.png" alt="ZZ TOP" />
+			</div>
+
+		</div>
+		
+
+	
+
+	</div><!-- .container -->
+			<div class="rsvp-sct-pad mob-hide">
+				<div class="rsvp-button-tan"><a class="box-media" href="#amped-registration" title="Register for Amped">RSVP</a></div>
+			</div>
+
+
+</nav>
+
+
+<!--AMPED VIDEO-->
+<section id="video-header">
+
+	<video autoplay poster="videos/rising-crowd-video-background-bw.png" id="bgvid" loop>
+		<!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+		<source src="videos/rising-crowd-video-background-bw.webm" type="video/webm">
+		<source src="videos/rising-crowd-video-background-bw.ogv" type="video/ogv">
+		<source src="videos/rising-crowd-video-background-bw.mp4" type="video/mp4">
+	</video>
+
+	<div class="container">
+		<div class="row">
+			<div class="twelve columns offset-by-two text-center">
+				<div class="amped-video-img">
+				<img class="scale-with-grid"  src="images/1607-wd-rising-amped-vid-logo.png">
+				</div>
+			</div>
+		</div><!--row-->
+	</div><!-- container -->
+
+</section>
+
+
+
+<section id="rsvp-top-sct" >
+	<div class="container">
+
+		<div class="row">
+			<div class="fourteen columns offset-by-one text-center">
+				<div>
+					
+					<p>Join OneSource Virtual for a rip-roaring rockfest called Amped. The festivities kick off at 8:30 p.m. on September 27 at Chicago’s Arie Crown Theater, part of the McCormick Place convention facility.
+					</p>
+				</div>
+			</div><!-- .columns -->
+
+		</div><!-- .row -->
+		<div class="row">
+		
+			<div class="sixteen columns text-center ">
+				<div id="rsvp-sct">
+					<div class="rsvp-button-tan"><a class="box-media" href="#amped-registration" title="Register for Amped">RSVP</a></div>			
+				</div>
+
+			</div><!-- .columns -->
+
+		</div><!-- .row -->
+		
+	</div><!-- container -->
+</section>
+
+
+<section id="zz-top-group-sct">
+		
+	<div class="zz-top-image"></div>
+
+	<div class="container">
+		<div class="row">
+
+			<div class="eight columns offset-by-nine ">
+				<div>
+					<h2>Entertainment</h2>
+					<p>This year’s OSV Workday Rising party will feature a live performance from the legendary ZZ Top, one of the greatest blues rock trios to ever strum stringed instruments.
+
+
+					</p>
+				</div>
+			</div><!-- .columns -->
+
+		</div><!-- .row -->	
+
+	</div><!-- container -->
+</section>
+
+
+<section id="open-bar-sct" style="position: relative;">
+
+	<div class="openbar-image"></div>
+
+	<div class="container">
+
+		<div class="row">
+			<div class="seven columns ">
+				<div >
+					<h2>Open Bar</h2>
+					<p>The crowd gets loud when the band gets right. We’ll keep your tank full of fun fuel until the night is over.
+					</p>
+				</div>
+			</div><!-- .columns -->
+		</div><!-- .row -->
+		
+	</div><!-- container -->
+</section>
+
+
+<section id="arie-crown-sct">
+	<div class="container">
+
+		<div class="row">
+			<div class="twelve columns offset-by-two text-center">
+				<div class="arie-crown-logo">
+				<img class="scale-with-grid"  src="images/1607-wd-rising-arie-crown-logo.png" width="340px">
+				</div>
+			</div>
+		</div><!--row-->
+
+	</div><!-- container -->
+</section>
+
+
+<!--Attire -->
+<section id="attire-sct" style="position: relative;">
+
+	<div class="attire-image"></div>
+
+	<div class="container">
+
+		<div class="row">
+			<div class="seven columns">
+				<div>
+					<h2>Attire</h2>
+					<p>Stylish yet streetwise. Tasteful yet tough. Ready to wear and ready to rock.</p>
+					<p>Khakis are not prohibited, but will be ruthlessly frowned upon.</p>
+					<p>Required accessories are ID and your Rising badge.</p>
+				</div>
+				
+			
+			</div>
+
+			</div><!-- .columns -->
+		
+
+				<div class="row">	
+
+			<div class="eight columns ">
+				<div class="rsvp-button-tan"><a class="box-media" href="http://osv-amped.tumblr.com/" title="Get Inspired">GET INSPIRED</a></div>
+			</div><!-- .columns -->
+	
+		
+		</div><!-- .row -->
+		
+	</div><!-- container -->
+</section>
+
+
+
+<section id="map-cnt">
+
+	<div class="map-img"></div>
+<!-- 	  <div id="map">
+
+  </div> -->
+
+</section>
+
+
+
+<section id="rsvp-bottom-sct" >
+	<div class="container">
+		
+		<div class="row">	
+
+			<div class="ten columns">
+				<div class="questions-text">
+					<h2>Join us for an amazing night</h2>
+				</div>
+			</div><!-- .columns -->
+			<div class="six columns">
+				<div class="rsvp-button-white"><a class="box-media" href="#amped-registration" title="Register for Amped">RSVP</a></div>
+			</div><!-- .columns -->
+		
+		</div><!-- .row -->
+		
+	</div><!-- container -->
+</section>
+
+
+
+<section id="totally-vid-sct" >
+	<div class="container">
+
+		<div class="row">	
+
+			<div class="nine columns">
+				<div>
+					<h2>Missed Last Year's Party?</h2>
+					<p>Watch Foreigner tear up 
+					<a href="https://vimeo.com/142406477" title="Watch The Video" class="box-media" rel="media-gallery" rel="media-gallery">OSV’s 2015 Workday Rising party</a>.</p>
+				</div>
+			</div><!-- .columns -->
+			<div class="five columns offset-by-two ">
+				 <a href="https://vimeo.com/142406477" class="box-media" rel="media-gallery"><img src="images/1607-wd-rising-old-thumbnail.jpg" width="100%"/></a>
+	
+			</div><!-- .columns -->
+
+		</div><!-- .row -->
+		
+	</div><!-- container -->
+</section>
+
+
+
+<section id="questions-sct" >
+
+		<div class="row">	
+	<div class="container">
+
+
+			<div class="thirteen columns">
+				<div class="questions-text-cnt clearfix">
+					<div class="q-content"><span class="line-spacer">Questions?</span><span class="contact-text">For questions please contact our <a href="mailto:#">Events Coordinator</a></span>.</div>
+	<!-- 				<div class=" env-icon mob-hide">
+						<img src="images/1607-wd-rising-envelope-icon.png"/>
+					</div>
+					 -->
+				</div>
+			</div><!-- .columns -->
+
+		
+
+			<!-- <div class="eight columns " >
+				<div class="questions-text valign-mid">
+					<p>For questions please contact our <a href="mailto:avircks@onesourcevirtual.com">Events Coordinator</a>.</p>
+				</div>
+			</div> --><!-- .columns -->
+
+			<div class="three columns" >
+				<div class="mob-hide env-hide">
+					<img src="images/1607-wd-rising-envelope-icon.png"/>
+				</div>
+			</div> <!-- .columns
+
+
+		
+		</div><!-- .row -->
+		
+	</div><!-- container -->
+</section>
+
+<!--Sponsor Section-->
+<section id="sponsor-sct">
+
+<div class="row">
+
+	<div class="container">
+
+			<div class="sixteen columns text-center">
+				
+				<img class="scale-with-grid" src="images/1607-wd-rising-sponsor-all.png">
+				
+			</div><!-- .columns-->
+
+		
+	</div><!-- container -->
+</div><!--row-->
+
+</section>
+
+
+<div id="amped-registration" class="amped-registration-layout" style="width:600px;display: none;background:#FFFFFF;">
+	<div style="width:100%; text-align:left;" ><iframe  src="//eventbrite.com/tickets-external?eid=26375727511&ref=etckt" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #dddddd; text-decoration: none;" target="_blank" href="http://www.eventbrite.com/l/registration-online/">Powered by Eventbrite</a></div></div>
+</div>
+
+
+<footer>
+	<div class="container">
+
+		<div class="five columns">
+			<ul class="social clearfix">
+				<li><a class="icon icon-osv-social-twitter mb" href="https://twitter.com/OneSourceV"><span>Twitter</span></a></li>
+				<li><a class="icon icon-osv-social-linkedin mb" href="https://www.linkedin.com/company/705528"><span>LinkedIn</span></a></li>
+				<li><a class="icon icon-osv-social-facebook mb" href="https://www.facebook.com/OneSourceVirtual"><span>Facebook</span></a></li>
+				<li><a class="icon icon-vimeo mb" href="https://vimeo.com/onesourcevirtual"><span>Youtube</span></a></li>
+				<li><a class="icon icon-osv-social-instagram mb" href="https://instagram.com/onesourcev"><span>Instagram</span></a></li>
+				<li><a class="icon icon-osv-social-glassdoor mb" href="http://www.glassdoor.com/Overview/Working-at-OneSource-Virtual-EI_IE429129.11,28.htm"><span>Glassdoor</span></a></li>
+			</ul>
+		</div><!-- .column -->
+		
+		<div class="eleven columns text-right">
+			<div class="footer-logo"><a href="https://onesourcevirtual.com/"><img class="scale-with-grid" src="images/logo_osv_sm_white.png" alt="OneSource Virtual"/></a></div>
+		</div><!-- .column -->
+
+	</div><!-- container -->
+</footer>
+
+
+
+
+<!-- End Document
+================================================== -->
+
+
+</body>
+</html>

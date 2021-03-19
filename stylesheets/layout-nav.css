@@ -1,0 +1,197 @@
+/* #Navigation
+================================================== */
+
+#menu,
+#menu ul,
+#menu ul li,
+#menu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#menu:after,
+#menu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#menu {
+  width: auto;
+  font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
+  background: transparent; /* background color */
+	float: right; /* float */
+}
+#menu > ul > li {
+  float: left;
+  display: inline-block;
+}
+#menu > ul > li > a {
+  padding: 0 18px; /* padding */
+  border-right: 1px solid rgba(80, 80, 80, 0.12); /* border color */
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #d3eced; /* color */
+	line-height: 75px; /* nav height */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#menu > ul > li:last-child > a {
+  border-right: none;
+}
+#menu > ul > li:hover > a,
+#menu > ul > li > a:hover,
+#menu > ul > li.active > a {
+  color: #ffffff; /* font colorhover */
+  background: #32a9c3; /* bqckground color:hover */
+  background: rgba(0, 0, 0, 0.1);
+}
+#menu a#pull {
+	display: none;
+}
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		
+	#menu > ul > li > a {
+		padding: 0 10px; /* padding */
+		border-right: 1px solid rgba(80, 80, 80, 0.12); /* border color */
+		text-decoration: none;
+		font-size: 14px;
+		font-weight: 500;
+		color: #d3eced; /* color */
+		line-height: 65px; /* nav height */
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+		
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+	
+	#nav .container { width: 100%; }
+	#nav div.sixteen.columns,
+	#nav div.fifteen.columns,
+	#nav div.fourteen.columns,
+	#nav div.thirteen.columns,
+	#nav div.twelve.columns,
+	#nav div.eleven.columns,
+	#nav div.ten.columns,
+	#nav div.nine.columns,
+	#nav div.eight.columns,
+	#nav div.two-thirds.column { width: 100%; }
+	
+	.logo {
+		display: none;
+	}
+	
+	#nav {
+		opacity:1;
+		background: none;
+	}
+  #menu {
+		float: none; /* float */
+  }
+  #menu > ul {
+    display: none;
+  }
+  #menu > ul > li {
+    float: none;
+    display: block;
+		background: #4D4D4D;
+		border-bottom: 2px solid #C6E83A; /* dark border */
+		border-top: 1px solid #C6E83A; /* offset border */
+		opacity: 1;
+  }
+	#menu > ul > li:first-child {
+		padding: 0;
+		border-top: none;
+	}
+	#menu > ul > li:last-child {
+		padding: 0;
+		border-bottom: none;
+	}
+  #menu > ul > li > a {
+		padding: 0;
+		border-right: none;
+		text-decoration: none;
+		font-size: 14px;
+		font-weight: 500;
+		color: #E4E4E4; /* color */
+		line-height: 55px; /* nav height */
+		text-transform: uppercase;
+		letter-spacing: 4px;
+		text-align: left;
+		width: 100%;
+		text-indent: 25px;
+		border: none;
+  }
+  #menu > ul > li:hover > a,
+  #menu > ul > li.active > a {
+		color: #C6E83A; /* color */
+  }
+	#nav a#pull {
+		display: block;
+			background: #afd52a; /* background color */
+  	box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.05); /* bottom nav shadow */
+		width: 100%;
+		position: relative;
+		font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
+		font-size: 22px;
+		color: #FFF; /* font color */
+		line-height: 55px;
+		text-indent: 25px;
+		text-decoration: none;
+		text-transform: uppercase;
+			opacity:.9;
+			background:-webkit-linear-gradient(90deg,#afd52a,#000); /* For Safari 5.1 to 6.0 */
+			background:-o-linear-gradient(90deg,#afd52a,#000); 	/* For Opera 11.1 to 12.0 */
+			background:-moz-linear-gradient(90deg,#afd52a,#000); 	/* For Firefox 3.6 to 15 */
+			background:linear-gradient(90deg,#afd52a,#000); /* Standard syntax (must be last) */
+			opacity:.9;
+	}
+	#nav a#pull span {
+		display: block;
+		text-indent: -9999px;
+		background: url(../images/image-osv-logo.png) no-repeat 20px center;
+	}
+	#nav a#pull:after {
+		content:"";
+		background: url('../images/nav-icon.png') no-repeat;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: 17px;
+	}
+
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+	
+	
+		
+	}

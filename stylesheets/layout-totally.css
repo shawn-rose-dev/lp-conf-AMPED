@@ -1,0 +1,631 @@
+/* #Site Styles
+================================================== */
+/*
+font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
+font-weight: 300, 400, 600, 700;
+
+font-family: "lft-etica-compressed", Helvetica Neue, Helvetica, Arial, sans-serif;
+font-weight: 400;
+
+font-family: "proxima-nova-condensed", Helvetica Neue, Helvetica, Arial, sans-serif;
+font-weight: 200, 300, 400;
+*/
+
+
+
+/* Global */
+
+.panel {
+	padding: 100px 0 40px 0;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.logo {padding: 20px;}
+
+/* Video General jQuery*/
+
+#ent-video-bg/*, #top-video-bg*/ {
+	height: 863px;
+	display: block;
+	background: #bd722e; /*burnt orange*/
+	position: relative;
+	padding: 50px;
+}
+
+#ent-video-bg .bg-video
+/*#top-video-bg .bg-video*/ {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:  0;
+}
+
+/* Top Video */
+
+.top-lights {
+	height: 175px; 
+
+}
+
+
+
+/* Foreigner Section */
+
+#foreigner {
+    height: 725px;
+	background: #fff url(../images/foreigner-band-image.jpg) no-repeat 50% 0 ;
+	background-size: cover;
+		-webkit-clip-path: polygon(0 0, 100% 15%, 100% 85%, 0% 100%);
+		clip-path: polygon(0 0, 100% 15%, 100% 85%, 0% 100%);
+}
+
+#foreigner img {
+	padding-left: 55px;
+    margin-top: 443px;
+    position: absolute;
+}
+
+.foreigner-p {
+	font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
+	color:  #424143;
+	font-size: 30px;
+	line-height: 47px;
+	font-weight: 200;
+	margin-top: 120px;
+}
+
+.greatest-hits p {
+	font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #424143;
+	line-height: 42px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+    margin: 0 0 8px 0;
+}
+
+hr {
+	width: 15%;
+	border-color: #CEFB30;
+    margin: 50px auto;
+}
+
+ul.foreigner-list {
+	font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #808081;
+    padding: 0 0 100px 0;
+}
+
+ul.foreigner-list li {
+    display: inline;
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+ul.foreigner-list li span {color: #D4DB25;}
+
+/*Entertainment Venue Section - Mandalay */
+
+#ent-video-bg .container {z-index: 5;}
+
+#entertainment-video {position: relative;}
+
+.amped-video-img {height: auto; padding: 200px 0;}
+
+.entertainment-video-text h2 {
+	font-family: "lft-etica-compressed", Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 42px;
+	line-height: 55px;
+	font-weight: 400;
+	color: #CEFB30;
+	text-transform: uppercase;
+    margin-bottom: 35px;
+ 	letter-spacing: 6px;
+}
+
+.entertainment-video-text p {
+	font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;	
+	color: #fff;
+	font-size: 20px;
+    line-height: 40px;
+    font-weight: 200;
+    margin-bottom: 75px;
+}
+
+#mobile-bg {display: none;}
+
+
+
+/* ZZTOP-GROUP */
+
+ #zz-top-group-sct {
+ 	height:500px;
+	margin: 0;
+    overflow: hidden;
+    padding: 200px 0;
+}
+
+ #zz-top-group {
+	background-size: cover;
+	position: relative;
+	background: #bd722e;
+}
+
+h2 {
+	font-family: 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
+	
+	font-size: 35px;
+	padding: 25px 0 25px 0;
+	letter-spacing: 1px;
+	font-weight: 600;
+
+
+}
+
+ #zz-top-group h2 {
+ 	color: #ffffff;
+
+
+
+	
+
+}
+
+ #zz-top-group  p {
+	font-family: 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 37px;
+	font-weight: 300;
+}
+
+ #zz-top-group img {
+
+	top: 70%;
+	overflow: hidden;
+	background-size: cover;
+}
+
+
+
+.zz-top-image-column {
+	position: absolute; 
+	width: 50%; 
+	height: 100%; 
+	top: 0; left: 0;
+	background: url('../images/1607-wd-rising-zztop-group.jpg') no-repeat 100%;
+	background-size:  cover;
+}
+
+.
+#map img {
+height: 500px;
+}
+
+/* Lights Venue Section */
+
+#lights {
+	height: 500px;
+	background: rgba(0,0,0,0.5) url(../images/6_Light.png) no-repeat 50% 0 ;
+	background-size: cover;
+		-webkit-clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 90%);
+		-moz-clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 90%);
+		clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 90%);
+}
+
+#lights h2 {
+	font-family: "lft-etica-compressed", Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 50px;
+	line-height: 55px;
+	font-weight: 400;
+	color: #CEFB30;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 100px 0px 35px 0px;
+}
+
+#lights p {
+	font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;	
+	color: #EFEEE9;
+	font-size: 20px;
+	font-weight: 200;
+    line-height: 32px;
+}
+
+#lights a {
+	color: #EFEEE9;
+	text-decoration: none;
+}
+
+/* Press Play RSVP */
+
+#rsvp {
+	background: #FFFFFF url(../images/tape.gif) no-repeat left 10%;
+	height: 400px;
+    margin: 100px 0;
+}
+
+#rsvp .play  {
+	width: 100%;
+	margin: 0px 10px 140px 90px;
+}
+
+/* Footer */
+
+footer {
+    background: #231f20;
+    padding: 75px 0;
+}
+
+ul.social li {
+	display: inline-block;
+	margin-bottom: 0;
+	width: auto;
+	text-align: center;
+}
+
+ul.social li a {
+	padding: 7px;
+	color: #FFFFFF;
+	color: rgba(255,255,255,0.7);
+}
+ul.social li a:hover {
+	color: #FFFFFF;
+	color: rgba(255,255,255,1);
+}
+
+.button.footer-btn {
+    background: none;
+    border: 2px solid;
+    border-color: #afd52a;
+    border-radius: 0;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    line-height: normal;
+    padding: 15px 10px;
+    font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.bottom-gradient {
+	position: relative;
+	width: 100%;
+	height: 10px;
+	background: #afd52a; /* background color */
+	box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.05); /* bottom nav shadow */
+	background:-webkit-linear-gradient(90deg,#afd52a,#000); /* For Safari 5.1 to 6.0 */
+	background:-o-linear-gradient(90deg,#afd52a,#000); 	/* For Opera 11.1 to 12.0 */
+	background:-moz-linear-gradient(90deg,#afd52a,#000); 	/* For Firefox 3.6 to 15 */
+	background:linear-gradient(90deg,#afd52a,#000); /* Standard syntax (must be last) */
+	opacity:.9;
+}
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+
+		#ent-video-bg .bg-video {display: none;}
+		#ent-video-bg {
+			height: auto;
+			background-color: #fff;
+			padding: 0 0 50px 0;
+		}
+
+		.enter-slant {
+			-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+			clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+		}
+
+		#top-video-bg {
+			background: #424242 url(../images/movieposter.jpg) no-repeat 50%;
+			background-size: cover;
+			height: 100px;
+		}
+	
+		#mobile-bg {
+			display: block;
+			background: #fff url(../images/3_Entertainment_Video_dark.png) no-repeat 50%;
+			background-size: cover;
+			width: 100%;
+			height: 300px;
+			position: relative;
+			margin: 0 0 100px 0;
+			-webkit-clip-path: polygon(0% 0%, 100% 10%, 100% 90%, 0% 100%);
+			clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+		}
+
+		#top-video-bg .bg-video {display: none;}
+
+		#totally .span2 {
+			display: block;
+			margin-top: 15px;
+		}
+
+
+	    #foreigner img {
+    		padding-left: 53px;
+		}
+
+		.foreigner-p {
+			margin: 50px 0;
+		}
+
+		#open-bar {
+			-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+				clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+		}
+			
+		#open-bar, #attire {
+			height: auto;
+		}
+
+		#open-bar h2, #attire  h2 {
+			padding: 0;
+			margin-bottom: 25px;
+		}
+
+		#attire  h2 {
+		    margin-top: -40px;
+		}
+
+		#open-bar p, #attire p {
+   		    line-height: 28px;
+	    }
+
+		.entertainment-video-text h2 {
+			font-family: "lft-etica-compressed", Helvetica Neue, Helvetica, Arial, sans-serif;
+			font-size: 50px;
+			line-height: 55px;
+			font-weight: 400;
+			color: #CEFB30;
+			text-transform: uppercase;
+		    margin-bottom: 25px;
+		 	letter-spacing: 2px;
+		}
+
+		.entertainment-video-text p {
+			font-family: "lft-etica-compressed", Helvetica Neue, Helvetica, Arial, sans-serif;			color: #424242;
+			font-size: 24px;
+			line-height: 37px;
+			font-weight: 200;
+			text-align: center;
+		}
+
+		ul.foreigner-list {
+			padding-bottom: 75px;
+		}
+
+		#lights {
+		    height: 340px;
+		}
+
+		#lights h2 {
+			margin: 30px 0px 35px 0px;
+		}
+
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+
+		#totally {
+			background: #fff url(../images/total-geo.png) no-repeat 107% 0 ;
+		}
+
+		#totally h1  {
+			font-family: "bebas-neue", Helvetica Neue, Helvetica, Arial, sans-serif;
+    		font-size: 28px;
+    		text-transform: uppercase;
+			letter-spacing: 2px;
+			font-weight: 100;	
+			margin: 0px 0px 5px 24px;    
+		}
+
+		#totally p  {
+			font-size: 28px;
+		    line-height: 35px;
+		    margin: 0px 0px 45px 24px;
+		}
+
+		#foreigner {
+			height: 262px;
+		}
+		
+		#foreigner img {
+			width: 80%;
+			padding-left: 220px;
+    		margin-top: 150px;
+		}
+
+		ul.foreigner-list li {
+			font-size: 15px
+		}
+
+		#mobile-bg {
+			width: 100%;
+			height: 280px;
+			position: relative;
+			margin: 0 0 50px 0;
+
+		}
+
+		#ent-video-bg {
+    		height: 710px;
+		}
+
+		.openbar-image-column {
+			position: relative; 
+			width: 100%; 
+			height: 475px; 
+			top: 0; right: 0;
+		}
+
+		.attire-image-column {
+			position: relative; 
+			width: 100%; 
+			height: 475px; 
+			top: 0; right: 0;
+			-webkit-clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 92%);
+				clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 92%);
+		}
+		
+		#open-bar {
+			height: auto;
+			margin: 0;
+		    overflow: hidden;
+		    background: cover;
+		    padding: 0 0 50px 0;
+			-webkit-clip-path: polygon(0 5%, 100% 0%, 100% 85%, 0% 100%);
+			clip-path: polygon(0 5%, 100% 0%, 100% 85%, 0% 100%);
+		}
+
+		#open-bar h2 {
+			color: #CCF930;
+			font-size: 35px;
+			padding: 65px 0 25px 155px;
+			margin: 0;
+		}
+
+		#open-bar p {
+			font-size: 24px;
+			line-height: 36px;
+			font-weight: 200;
+			text-align: center;
+		}
+
+		#attire h2 {
+			font-size: 35px;
+			padding: 65px 0 25px 155px;
+			margin: 0;
+		}
+	
+
+		#attire p {
+			font-size: 24px;
+			line-height: 36px;
+			font-weight: 200;
+			text-align: center;
+		}
+
+		#attire {
+			height: auto;
+			margin: 0;
+		    overflow: hidden;
+		    padding: 0 0 50px 0;
+		}
+
+		.entertainment-video-text {
+			position: relative;
+			height: 150px;
+		}
+
+		#lights {			
+			-webkit-clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 92%);
+						clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 92%);
+		}
+
+		.lights-image-column {
+			position: relative; 
+			width: 100%; 
+			height: 475px; 
+			top: 0; right: 0;
+		}
+
+		#rsvp {
+			background: none;
+			height: auto;
+		}
+
+		#rsvp .play {
+		width: 100%;
+		margin: 0;
+		}
+
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+	
+		
+	}
+
+
+/* #Font-Face
+================================================== */
+
+	body {
+		font: 14px/21px "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
+		color: #444;
+		font-weight: 400;
+		background: #fff;  /*#231f20*/
+	}
+	section {
+		background: #FFFFFF;
+		padding: 50px 0;
+	}
+	footer {
+		background: #231f20;
+		padding: 75px 0;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		color: #181818;
+		font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
+		font-weight: 400; }
+		
+	h4 { font-size: 28px; line-height: 30px; margin-bottom: 4px; text-transform: uppercase; font-family: '', Helvetica, Arial, sans-serif; color: #181818; }
+	h1 { font-size: 36px; line-height: 46px; margin-bottom: 0px; text-transform: uppercase; font-family: 'proxima-nova', Helvetica, Arial, sans-serif; color: #424143; }
+	
+	strong { font-weight: bold; color: #181818; }
+
+	.button,
+	button,
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"] {
+	  color: #444;
+	  font-size: 13px;
+	  font-weight: bold;
+	  font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
+	  text-transform: uppercase; }
+
+	.button a:visited { color: #444; }
+	
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	textarea,
+	select {
+		font-size: 13px;
+		font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
+		color: #777; }
+		
+	.button.footer-btn {
+		background: none; /* Old browsers */
+	  border: 2px solid;
+		border-color: #afd52a;
+	  border-radius: 0;
+	  color: #FFFFFF;
+	  display: inline-block;
+	  font-size: 13px;
+	  font-weight: 500;
+	  text-decoration: none;
+	  cursor: pointer;
+	  margin-bottom: 20px;
+	  line-height: normal;
+	  padding: 15px 10px;
+	  font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
+	}
